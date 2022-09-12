@@ -1,0 +1,67 @@
+.film-image {
+    border-radius: 50%;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li {
+    list-style: none;
+}
+.ul {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.filter-container {
+    box-shadow: 5px 5px 8px #000;
+    border-radius: 10px;
+    width: 300px;
+}
+.filter-sub-heading {
+    display: block;
+    margin: 5px 0 20px 0;
+}
+.film-list {
+    background-color: #fff;
+    list-style-type: none;
+    max-height: 400px;
+    width: 500px;
+    margin: 0 auto;
+}
+.film-list li {
+    display: flex;
+    padding: 8px;
+
+    border-bottom: 1px solid rgb(114, 114, 114);
+}
+.film-list img {
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+}
+.film-information {
+    margin-left: 10px;
+    padding: 6px;
+}
+.film-information h3 {
+    margin-bottom: 10px;
+    font-size: 13px;
+
+}
+.film-information p {
+    font-size: 8px;
+    color: gray;
+    text-align: left;
+    margin-top: -10px;
+}
+.film-list li.hide {
+    display: none;
+}
+.close {
+    margin-left: 265px;
+    position: absolute;
+    cursor: pointer;
+  }

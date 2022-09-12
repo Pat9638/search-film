@@ -1,0 +1,51 @@
+.result-container {
+    margin: -500px 425px;
+    z-index: 10000;
+    background: white
+}
+.result-grid {
+    position: absolute;
+    width: 650px;
+    height: 550px;
+    margin: 0 auto;
+    background: white;
+    z-index: 1000;
+}
+.movie-poster img{
+    max-width: 300px;
+    border: 4px solid #fff;
+    position: absolute;
+    margin: 40px 0px 0px -280px;
+    width: 145px;
+}
+.movie-title {
+    margin-left: 0px;
+    border: 1px solid gray;
+}
+.year {
+    margin-left: 250px;
+}
+.rated {
+    margin-left: 250px;
+}
+.released {
+    margin-left: 250px;
+}
+.genre {
+    margin-left: 250px;
+}
+.writer {
+    margin-left: 250px;
+}
+.actors {
+    margin-left: 250px;
+}
+.plot {
+    margin-left: 250px;
+}
+.language {
+    margin-left: 250px;
+}
+.awards {
+    margin-left: 250px;
+}
